@@ -1,0 +1,145 @@
+body {
+    font-family: Arial;
+    background-color: #5f5f5f;
+    color: #000000;
+    text-align: center; 
+    background-color: #434a69;
+}
+.topnav {
+    width: 100%;
+  }
+  
+  .topnav a {
+    background-color: #000000;
+    color: rgb(105, 104, 104);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #949393;
+    border-radius: 5px;
+  }
+  
+  .topnav a.active {
+    background-color: #eee;
+    color: #000000;
+  }
+  
+a:hover {
+    background-color: rgba#000000; 
+}
+
+a:visited {
+    color: #ffffff; 
+}
+
+a:link {
+    color: #000000; 
+}
+
+.titulo {
+    display: inline-block; 
+    background-color: #000000;
+    padding: 10px; 
+    border-radius: 30px; 
+    text-align: center; 
+}
+
+
+.sobre-mim h2 {
+    margin-top: 0; 
+}
+
+.sobre-mim p {
+    margin-bottom: 0; 
+}
+
+.minha-foto {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+    a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .foto, .minha-foto {
+        width: 100%;
+    }
+}
+.Estesoueu {
+    text-align: center;
+}
+.Hábito {
+    text-align: center;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}  
+.minha-foto {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; 
+    border-radius: 50%;
+    border: 4px solid rgb(0, 0, 0);
+}
+.Eu {
+    text-align:center;
+    background-color: #c9c9c9;
+    border: 2px solid black;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+.Projeto2 {
+    border: 2px solid black;
+    background-color: #b2b1b1;
+    
+}
+
+.porque {
+    border: 2px solid black;
+    background-color: #b2b1b1;
+}
+ .porque2 {
+    text-align:center;
+    background-color: #a46649;
+    border: 2px solid black;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+ }
+
+ .rios {
+    border: 2px solid black;
+    background-color: #b2b1b1;
+ }
+
+ .curriculo {
+    border: 2px solid black;
+    background-color: #dddbdb;
+    font-size: medium;
+ }
+ .TBranca {
+    background-color: #c2c1c1;
+ }
+
+ .Tlaranja {
+    background-color: #a46649;
+ }
+
+ .Tazul {
+    background-color: #42475e;
+ }
+ .idioma {
+    background-color: #a46649;
+    border: 2px solid black;
+ }
